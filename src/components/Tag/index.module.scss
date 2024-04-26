@@ -1,0 +1,33 @@
+.tag{
+    position: relative;
+    width: fit-content;
+
+    display: inline-flex;
+
+    color: black;
+
+    background-color: whitesmoke;
+
+    border-radius: 4px;
+    padding-right: 30px;
+}
+
+.input{ 
+    width: 30px;
+
+    display: inline;
+
+    color: black;
+    background-color: blanchedalmond;
+    border: none;
+}
+
+.image{
+    position: absolute;
+    top: 50%;
+    right: 4px;
+
+    transform: translateY(-50%);
+
+    cursor: pointer;
+}

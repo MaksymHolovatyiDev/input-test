@@ -1,0 +1,19 @@
+.container{
+    width: 800px;
+
+    margin: 0 auto;
+
+    &--flex{
+        display: flex;
+        align-items: center;
+
+        gap: 20px;
+    }
+}
+
+.text-area{
+    width: 700px;
+
+    padding: 4px;
+    border: 1px solid gray;
+}
